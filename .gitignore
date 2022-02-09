@@ -1,0 +1,33 @@
+# See https://help.github.com/ignore-files/ for more about ignoring files.
+
+#idea
+.idea
+.scannerwork
+/.vscode
+# dependencies
+/node_modules
+/uploads
+# testing
+/coverage
+
+# production
+/build
+/documentation
+
+# misc
+.DS_Store
+
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+hs_err*
+client-cert.pem
+client-key.pem
+test.http
+markdown-text.md
+.env
+.env.*
+issues.md
+# firebase*
+test.sh
